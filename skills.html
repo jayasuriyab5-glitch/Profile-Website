@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skills</title>
+  <title>Skills | Jayasurya</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
   <header>
     <nav class="navbar fade-down">
-      <div class="logo glow-text">Portfolio.</div>
+      <div class="logo">JAYA.</div>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="Index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="skills.html" class="active">Skills</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
@@ -21,59 +26,94 @@
   </header>
 
   <section class="skills fade-up">
-    
     <h2 class="glow-text">My Skills</h2>
+    <p class="section-sub">Code, Create & Edit — the full creative stack</p>
+
     <div class="skills-container">
       <div class="skill-card slide-in-left">
-        <h3>HTML</h3>
-        <div class="progress-bar"><span style="width: 95%"></span></div>
+        <div class="skill-header"><span class="skill-icon">🌐</span><h3>HTML5</h3><span class="skill-percent">95%</span></div>
+        <div class="progress-bar"><span style="width:95%"></span></div>
       </div>
       <div class="skill-card slide-in-right">
-        <h3>CSS</h3>
-        <div class="progress-bar"><span style="width: 90%"></span></div>
+        <div class="skill-header"><span class="skill-icon">🎨</span><h3>CSS3</h3><span class="skill-percent">90%</span></div>
+        <div class="progress-bar"><span style="width:90%"></span></div>
       </div>
       <div class="skill-card slide-in-left">
-        <h3>JavaScript</h3>
-        <div class="progress-bar"><span style="width: 85%"></span></div>
+        <div class="skill-header"><span class="skill-icon">⚡</span><h3>JavaScript</h3><span class="skill-percent">85%</span></div>
+        <div class="progress-bar"><span style="width:85%"></span></div>
       </div>
       <div class="skill-card slide-in-right">
-        <h3>Bootstrap</h3>
-        <div class="progress-bar"><span style="width: 80%"></span></div>
+        <div class="skill-header"><span class="skill-icon">🅱️</span><h3>Bootstrap</h3><span class="skill-percent">80%</span></div>
+        <div class="progress-bar"><span style="width:80%"></span></div>
+      </div>
+      <div class="skill-card slide-in-left">
+        <div class="skill-header"><span class="skill-icon">🐍</span><h3>Python</h3><span class="skill-percent">80%</span></div>
+        <div class="progress-bar"><span style="width:80%"></span></div>
       </div>
       <div class="skill-card slide-in-right">
-        <h3>Python</h3>
-        <div class="progress-bar"><span style="width: 80%"></span></div>
+        <div class="skill-header"><span class="skill-icon">☕</span><h3>Java</h3><span class="skill-percent">70%</span></div>
+        <div class="progress-bar"><span style="width:70%"></span></div>
       </div>
     </div>
-    <!-- Glowing Buttons here -->
-  <div class="glow-button-group">
-    <a href="index.html" class="glow-button">Home</a>
-    <a href="contact.html" class="glow-button">Contact</a>
-    <a href="portfolio.html" class="glow-button">Projects</a>
-    <a href="about.html" class="glow-button">About</a>
-  </div>
-  </section>
-  <footer class="footer">
-  <div class="footer-container">
-    <h2 class="footer-logo">MyPortfolio</h2>
-    <p>Designing Dreams ✨ | Building Reality 💻</p>
-    <div class="footer-socials">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a href="#"><i class="fab fa-github"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-    </div>
-    <p class="footer-copy">© 2025 MyPortfolio. All Rights Reserved.</p>
-  </div>
-</footer>
-<div class="video-background">
-  <video autoplay muted loop playsinline id="bgVideo">
-    <source src="bg-video.mp4" type="video/mp4">
-  </video>
-<!-- FontAwesome for Social Icons -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
+    <!-- Creative Skills -->
+    <div class="creative-skills">
+      <h3>🎬 Creative Skills</h3>
+      <div class="creative-grid">
+        <div class="creative-card">
+          <div class="tool-icon">🎬</div>
+          <h4>Video Editing</h4>
+          <p>Cinematic reels, transitions, storytelling & effects</p>
+          <span class="tool-tag">CapCut</span>
+        </div>
+        <div class="creative-card">
+          <div class="tool-icon">📸</div>
+          <h4>Photo Editing</h4>
+          <p>Retouching, filters, compositions & creative visuals</p>
+          <span class="tool-tag">Picsart</span>
+        </div>
+        <div class="creative-card">
+          <div class="tool-icon">🖌️</div>
+          <h4>Graphic Design</h4>
+          <p>Posters, social media posts, banners & branding</p>
+          <span class="tool-tag">Canva</span>
+        </div>
+        <div class="creative-card">
+          <div class="tool-icon">🎨</div>
+          <h4>UI Design</h4>
+          <p>Modern, glowing interfaces & responsive layouts</p>
+          <span class="tool-tag">HTML/CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="glow-button-group">
+      <a href="Index.html" class="glow-button">Home</a>
+      <a href="portfolio.html" class="glow-button">Projects</a>
+      <a href="contact.html" class="glow-button">Contact</a>
+      <a href="about.html" class="glow-button">About</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <h2 class="footer-logo">JAYA.</h2>
+      <p>Designing Dreams ✨ | Building Reality 💻 | Editing Moments 🎬</p>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="footer-copy">© 2025 Jayasurya. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <div class="video-background">
+    <video autoplay muted loop playsinline id="bgVideo">
+      <source src="bg-video.mp4" type="video/mp4">
+    </video>
+  </div>
 </body>
 </html>
-
